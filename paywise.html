@@ -7,6 +7,7 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;600&display=swap" rel="stylesheet">
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
     <title>Paywise</title>
 </head>
 <body>
@@ -93,10 +94,63 @@
         </article>
         <article class="third_main_article">
             <section class="third_article_section">
-                <h2>Our Online And ATM<br/>Exchange Rates</h2>
-                <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit.<br/>Quo maiores nobis sequi rerum ea perferendis</p>
+                <div class="third_article_header">
+                    <h2>Our Online And ATM<br/>Exchange Rates</h2>
+                    <p>Lorem ipsum dolor, sit amet consectetur adipisicing<br/> elit.Lorem ipsum dolor, sit amet consectetur adipisicing elit.</p>
+                </div>
+            </section>
+            <div class="sell_values">
+                <section class="exchanges">
+                    <div class="exchange_rate">
+                        <div class="exchange_row">
+                            <p>USD</p>
+                            <p>71,35<i class='bx bxs-down-arrow'></i></p>
+                            <p>76,55<i class='bx bxs-down-arrow'></i></p>
+                        </div>
+                        <div class="exchange_row">
+                            <p>EUR</p>
+                            <p>84,98<i class='bx bxs-down-arrow'></i></p>
+                            <p>85,98<i class='bx bxs-down-arrow'></i></p>
+                        </div>
+                    </div>
+                </section>
+                <div class="sell_values_calculate">
+                    <div class="sell_values_block">
+                        <p>I'd like to sell</p>
+                        <div class="input_block">
+                            <input type="number" class="sell_values_input" id="user_input">
+                            <p>UAH</p>
+                        </div>
+                    </div>
+                    <div class="sell_values_block">
+                        <p>I'll get</p>
+                        <div class="input_block">
+                            <input type="number" class="sell_values_input" id="user_output" disabled>
+                            <p>UAH</p>
+                        </div>
+                    </div>
+                    <button class="exchange_btn">Exchange money</button>
+                </div>
+            </div>
+        </article>
+        <article class="global_services">
+            <header class="global_services_header">
+                <h2>Our Global Services</h2>
+                <p>we providing our clients two cards for their one<br/>mission and finance</p>
+            </header>
+            <section class="global_services_main">
+                <div class="column">
+                    <div class="column_block"></div>
+                    <div class="column_block"></div>
+                </div>
+                <div class="column_middle"></div>
+                <div class="column">
+                    <div class="column_block"></div>
+                    <div class="column_block"></div>
+                </div>
             </section>
         </article>
     </main>
+    <script src="paywise.js"></script>
 </body>
 </html>

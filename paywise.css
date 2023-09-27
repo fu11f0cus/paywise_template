@@ -277,20 +277,126 @@ nav {
 .third_main_article {
     background: linear-gradient(108deg, #309975 0%, #58B368 100%);
     padding: 100px 200px 100px 150px;
+    justify-content: space-between;
 }
-.third_article_section h2 {
+.third_article_header h2 {
     color: white;
     font-size: 48px;
+    margin-bottom: 15px;
     font-family: Poppins;
     font-weight: 600;
     line-height: 50.40px;
     word-wrap: break-word;
 }
-.third_article_section p {
+.third_article_header p {
     color: white;
     font-size: 18px;
     font-family: Poppins;
     font-weight: 400;
     line-height: 25.29px;
+    word-wrap: break-word;
+}
+.exchange_row {
+    display: flex;
+    margin: 20px 0 20px 0;
+    justify-content: space-between;
+    width: 400px;
+}
+.exchange_row p {
+    color: white;
+    font-size: 24px;
+    font-family: Poppins;
+    font-weight: 400;
+    line-height: 25.20px;
+    word-wrap: break-word;
+}
+.exchange_row p:nth-child(2), p:nth-child(3) {
+    font-weight: bold;
+    display: flex;
+    align-items: center;
+}
+.exchange_row p > i {
+    color: #FFCA63;
+    font-size: 10px;
+    margin-left: 5px;
+}
+.sell_values {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.sell_values_block {
+    margin: 20px 0;
+}
+.input_block {
+    display: flex;
+    border: 2px solid white;
+    padding: 20px 40px;
+    justify-content: space-between;
+}
+.input_block p {
+    color: white;
+    font-size: 36px;
+    font-family: Poppins;
+    font-weight: 400;
+    line-height: 37.80px;
+    word-wrap: break-word;
+}
+.sell_values_input {
+    background: none;
+    border: none;
+    transition: .4s;
+    color: white;
+    font-size: 36px;
+    font-family: Poppins;
+    font-weight: 500;
+    line-height: 37.80px;
+    word-wrap: break-word;
+    width: 150px;
+}
+.sell_values_input:focus {
+    outline: none;
+    border-bottom: 2px solid white;
+}
+.sell_values_input[type="number"]::-webkit-inner-spin-button,
+.sell_values_input[type="number"]::-webkit-outer-spin-button {
+  -webkit-appearance: none;
+  appearance: none;
+  margin: 0; /* Убираем отступы, которые могут остаться */
+}
+.exchange_btn {
+    background: #FFCA63; 
+    border-radius: 5px;
+    color: #20656F;
+    font-size: 18px;
+    font-family: Poppins;
+    font-weight: 600;
+    line-height: 18.90px;
+    word-wrap: break-word;
+    padding: 15px 18px;
+    margin-top: 30px;
+    border: none;
+    cursor: pointer;
+}
+.global_services {
+    margin-top: 50px;
+}
+.global_services_header {
+    text-align: center;
+}
+.global_services_header h2 {
+    color: #575757;
+    font-size: 48px;
+    font-family: Poppins;
+    font-weight: 600;
+    line-height: 63.60px;
+    word-wrap: break-word;
+}
+.global_services_header p {
+    color: #575757;
+    font-size: 24px;
+    font-family: Poppins;
+    font-weight: 400;
+    line-height: 31.80px;
     word-wrap: break-word;
 }
